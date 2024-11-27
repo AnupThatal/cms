@@ -1,0 +1,27 @@
+/* .Dashboard-Home p{
+    position: relative;
+} */
+/* .Dashboard-Home{
+    padding: 10px;
+} */
+.animated-list li {
+    font-size: 10px;
+    font-family: sans-serif;
+    text-align: justify;
+    animation: slideFromTop 2s ease;
+    animation-fill-mode: backwards;
+    animation-timing-function: linear;
+
+}
+
+
+@keyframes slideFromTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

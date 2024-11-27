@@ -1,0 +1,76 @@
+
+.Navbar a{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 10px;
+    padding: 5px;   
+} 
+
+.head-images{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;   
+}
+
+.head-image {
+    background-image: url('../images/header-bg.png');
+    height:60px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: Arial;
+    font-size:12px;
+    font-weight: bold;
+}
+
+.Navbar-design{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:space-between;    
+    background-color:rgb(235, 189, 20);
+    padding:5px;
+    gap:10px;
+    max-width: 100%;
+    height:auto;
+    margin-top: 2px;
+
+}
+
+.Navbar-design a{
+    font-family:sans-serif;
+    font-style: normal;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    color: rgb(87, 84, 84) !important;
+    font-weight: bold;
+}
+
+.Navbar-design button{
+    background-color: #cb9c0f; /* Green */
+    border: none;
+    border-radius: 2px;
+    margin-right: 10px;
+    color:white;
+    font-family: Arial;
+    text-transform: capitalize;    
+    font-size: 12px;
+}
+
+.responsive-img {
+    max-width: 100%;
+    height: 60px;
+}
+
+
+
+.ImageApp{
+    height:10%;
+    width: 100%;
+    background-attachment: fixed;
+
+}

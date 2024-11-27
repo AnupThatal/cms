@@ -1,0 +1,23 @@
+.form-label{
+    text-align:start;
+    display: block;
+}
+
+.register1{
+    background:#e8ebee;
+}
+/* .register1{
+    background-image: url('G:\CMS\src\images\data-security-threat.png');
+    background-size: cover;
+} */
+
+input[type='text'],
+input[type='number'],
+input[type='email'],
+input[type='password'] {
+    text-align: start;
+}
+
+.select{
+    text-align: center;
+}

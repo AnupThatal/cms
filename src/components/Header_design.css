@@ -1,0 +1,39 @@
+ul {
+  list-style-type: none;    
+  padding: 0;
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  overflow: hidden;    
+}
+
+nav {
+  background-color: rgb(250, 250, 250);
+  color: rgb(255, 255, 255);
+  height: 40px;
+}
+
+li {
+  float: left;
+  margin: 5px;
+}
+
+li a {
+  color: rgb(49, 49, 49);
+  display: block;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  text-decoration: none; /* Remove underline */
+}
+
+.flex-container {
+  display: flex;
+  background-color: white;
+}
+
+.flex-container div {
+  background-color: #c9d1cb;
+  margin: 10px;
+  padding: 10px;
+}

@@ -1,0 +1,110 @@
+.ImageDesign {
+  display: flex;
+  width: 100%;
+}
+
+.button1 {
+  width: 100%; /* Ensures the button takes the full width of its column */
+  padding: 5px; /* Adjust the vertical padding as needed */
+  font-size: 14px; /* Adjust the font size */
+  text-align: center; /* Centers text horizontally */
+  justify-content: center; /* Centers text horizontally */
+  font-family: Arial;
+  border-radius: 0;
+}
+
+.footer {
+  background-color: rgb(185, 163, 163);
+  height: 200px;
+}
+
+.footer p {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-size: 10px;
+}
+
+.details p {
+  color: black;
+}
+
+.footer-content p {
+  font-size: 16px;
+}
+
+.element {
+  background-color: rgb(244, 244, 244);
+  height: 70px;
+  width: 70px;
+  font-size: 1px;
+  padding: 1px;
+  color: white;
+  border-radius: 30px;
+}
+
+.images {
+  background-image: url('G:/CMS/src/images/image2.png'); /* Correct path to your image */
+  background-size: cover; /* Cover the entire div */
+  background-position: center; /* Center the image */
+  width: 100%; /* Full width */
+  height: 200px; /* Set a specific height */
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center; /* Center the card */
+  margin: 20px; /* Add margin around the card */
+}
+
+.card1 {
+  background-color: #ffffff; /* White background for the card */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 20px; /* Padding inside the card */
+  max-width: 400px; /* Maximum width for the card */
+  text-align: center; /* Center text */
+}
+
+.card-title {
+  font-size: 1.25rem; /* Slightly larger title */
+  margin-bottom: 10px; /* Space below the title */
+}
+
+.card-text {
+  margin-bottom: 20px; /* Space below the text */
+}
+
+.button1 {
+  background-color: #f8f9fa; /* Light background color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 15px; /* Padding inside the button */
+  transition: background-color 0.2s; /* Smooth transition for hover effect */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.button1:hover {
+  background-color: #e2e6ea; /* Darken the background on hover */
+}
+
+/*  */
+
+@keyframes roll {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(90deg);
+  }
+}
+
+@media (max-width: 768px) {
+  p {
+    font-size: 14px; /* Adjust font size for mobile */
+    line-height: 1.5; /* Improve readability */
+  }
+}

@@ -1,0 +1,23 @@
+.design{
+    text-transform: capitalize;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.input-design{
+    /* border-radius: 5px; */
+    height: 30px;
+    text-align: start;
+    border-radius: 5px;
+
+}
+
+.di{
+    background-color: gainsboro;
+}
+
+.h5-design{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
